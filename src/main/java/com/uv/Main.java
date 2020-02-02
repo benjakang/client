@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
 //        new ClientThread("0.0.0.0", 10001, 10001).start();
-        new ClientThread("localhost", 60001, 11000).start();
+//        new ClientThread("localhost", 60001, 11000).start();
         new ClientThread("localhost", 60001, 10001).start();
         new ClientThread("localhost", 60001, 10002).start();
         new ClientThread("localhost", 60001, 10003).start();
